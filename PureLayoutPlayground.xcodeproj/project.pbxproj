@@ -13,9 +13,11 @@
 		336125FC26042BFB007FC2CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336125FA26042BFB007FC2CB /* Main.storyboard */; };
 		336125FE26042BFC007FC2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336125FD26042BFC007FC2CB /* Assets.xcassets */; };
 		3361260126042BFC007FC2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336125FF26042BFC007FC2CB /* LaunchScreen.storyboard */; };
+		F24FB4BCE8E43BA77D4A3DE1 /* Pods_PureLayoutPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375945C0508E768A9B793A11 /* Pods_PureLayoutPlayground.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2606E2F650466B5EFF4AFC73 /* Pods-PureLayoutPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureLayoutPlayground.release.xcconfig"; path = "Target Support Files/Pods-PureLayoutPlayground/Pods-PureLayoutPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		336125F126042BFB007FC2CB /* PureLayoutPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureLayoutPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336125F426042BFB007FC2CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		336125F626042BFB007FC2CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		336125FD26042BFC007FC2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3361260026042BFC007FC2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3361260226042BFC007FC2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375945C0508E768A9B793A11 /* Pods_PureLayoutPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PureLayoutPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07F2A7D55A5789F7E3D9F90 /* Pods-PureLayoutPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureLayoutPlayground.debug.xcconfig"; path = "Target Support Files/Pods-PureLayoutPlayground/Pods-PureLayoutPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24FB4BCE8E43BA77D4A3DE1 /* Pods_PureLayoutPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				336125F326042BFB007FC2CB /* PureLayoutPlayground */,
 				336125F226042BFB007FC2CB /* Products */,
+				9D19A4D4A01D406F4B5B1C29 /* Pods */,
+				7E78A8576E5F5EB95293CD6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = PureLayoutPlayground;
 			sourceTree = "<group>";
 		};
+		7E78A8576E5F5EB95293CD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375945C0508E768A9B793A11 /* Pods_PureLayoutPlayground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D19A4D4A01D406F4B5B1C29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A07F2A7D55A5789F7E3D9F90 /* Pods-PureLayoutPlayground.debug.xcconfig */,
+				2606E2F650466B5EFF4AFC73 /* Pods-PureLayoutPlayground.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3361260526042BFC007FC2CB /* Build configuration list for PBXNativeTarget "PureLayoutPlayground" */;
 			buildPhases = (
+				6897BA85F444FF2E1AE07EF0 /* [CP] Check Pods Manifest.lock */,
 				336125ED26042BFB007FC2CB /* Sources */,
 				336125EE26042BFB007FC2CB /* Frameworks */,
 				336125EF26042BFB007FC2CB /* Resources */,
+				7F01A3B0A6176FD463044FA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6897BA85F444FF2E1AE07EF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PureLayoutPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F01A3B0A6176FD463044FA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PureLayoutPlayground/Pods-PureLayoutPlayground-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PureLayoutPlayground/Pods-PureLayoutPlayground-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PureLayoutPlayground/Pods-PureLayoutPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		336125ED26042BFB007FC2CB /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		3361260626042BFC007FC2CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07F2A7D55A5789F7E3D9F90 /* Pods-PureLayoutPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +371,7 @@
 		};
 		3361260726042BFC007FC2CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2606E2F650466B5EFF4AFC73 /* Pods-PureLayoutPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
