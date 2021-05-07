@@ -15,6 +15,14 @@
 		3361260126042BFC007FC2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336125FF26042BFC007FC2CB /* LaunchScreen.storyboard */; };
 		337D2DF92632588A0033D12C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D2DF82632588A0033D12C /* ProfileView.swift */; };
 		33C9783F2633AEE700A89026 /* ProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C9783E2633AEE700A89026 /* ProfileInfoTableViewCell.swift */; };
+		33F2D4672644D17D00BC396D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2D45C2644D17D00BC396D /* ViewController.swift */; };
+		33F2D4682644D17D00BC396D /* ProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2D45D2644D17D00BC396D /* ProfileInfoTableViewCell.swift */; };
+		33F2D4692644D17D00BC396D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2D45E2644D17D00BC396D /* ProfileView.swift */; };
+		33F2D46A2644D17D00BC396D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F2D45F2644D17D00BC396D /* Assets.xcassets */; };
+		33F2D46B2644D17D00BC396D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F2D4602644D17D00BC396D /* LaunchScreen.storyboard */; };
+		33F2D46C2644D17D00BC396D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F2D4622644D17D00BC396D /* Main.storyboard */; };
+		33F2D46D2644D17D00BC396D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2D4642644D17D00BC396D /* AppDelegate.swift */; };
+		33F2D46F2644D17D00BC396D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2D4662644D17D00BC396D /* SceneDelegate.swift */; };
 		F24FB4BCE8E43BA77D4A3DE1 /* Pods_PureLayoutPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375945C0508E768A9B793A11 /* Pods_PureLayoutPlayground.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +38,15 @@
 		3361260226042BFC007FC2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		337D2DF82632588A0033D12C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		33C9783E2633AEE700A89026 /* ProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
+		33F2D45C2644D17D00BC396D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33F2D45D2644D17D00BC396D /* ProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
+		33F2D45E2644D17D00BC396D /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		33F2D45F2644D17D00BC396D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33F2D4612644D17D00BC396D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33F2D4632644D17D00BC396D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33F2D4642644D17D00BC396D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33F2D4652644D17D00BC396D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F2D4662644D17D00BC396D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		375945C0508E768A9B793A11 /* Pods_PureLayoutPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PureLayoutPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07F2A7D55A5789F7E3D9F90 /* Pods-PureLayoutPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureLayoutPlayground.debug.xcconfig"; path = "Target Support Files/Pods-PureLayoutPlayground/Pods-PureLayoutPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,7 +66,6 @@
 		336125E826042BFB007FC2CB = {
 			isa = PBXGroup;
 			children = (
-				33C9783E2633AEE700A89026 /* ProfileInfoTableViewCell.swift */,
 				336125F326042BFB007FC2CB /* PureLayoutPlayground */,
 				336125F226042BFB007FC2CB /* Products */,
 				9D19A4D4A01D406F4B5B1C29 /* Pods */,
@@ -68,6 +84,8 @@
 		336125F326042BFB007FC2CB /* PureLayoutPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				33C9783E2633AEE700A89026 /* ProfileInfoTableViewCell.swift */,
+				33F2D45B2644D17D00BC396D /* PureLayoutPlayground */,
 				336125F426042BFB007FC2CB /* AppDelegate.swift */,
 				336125F626042BFB007FC2CB /* SceneDelegate.swift */,
 				336125F826042BFB007FC2CB /* ViewController.swift */,
@@ -78,6 +96,22 @@
 				337D2DF82632588A0033D12C /* ProfileView.swift */,
 			);
 			path = PureLayoutPlayground;
+			sourceTree = "<group>";
+		};
+		33F2D45B2644D17D00BC396D /* PureLayoutPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				33F2D45C2644D17D00BC396D /* ViewController.swift */,
+				33F2D45D2644D17D00BC396D /* ProfileInfoTableViewCell.swift */,
+				33F2D45E2644D17D00BC396D /* ProfileView.swift */,
+				33F2D45F2644D17D00BC396D /* Assets.xcassets */,
+				33F2D4602644D17D00BC396D /* LaunchScreen.storyboard */,
+				33F2D4622644D17D00BC396D /* Main.storyboard */,
+				33F2D4642644D17D00BC396D /* AppDelegate.swift */,
+				33F2D4652644D17D00BC396D /* Info.plist */,
+				33F2D4662644D17D00BC396D /* SceneDelegate.swift */,
+			);
+			name = PureLayoutPlayground;
 			sourceTree = "<group>";
 		};
 		7E78A8576E5F5EB95293CD6B /* Frameworks */ = {
@@ -158,6 +192,9 @@
 			files = (
 				3361260126042BFC007FC2CB /* LaunchScreen.storyboard in Resources */,
 				336125FE26042BFC007FC2CB /* Assets.xcassets in Resources */,
+				33F2D46A2644D17D00BC396D /* Assets.xcassets in Resources */,
+				33F2D46C2644D17D00BC396D /* Main.storyboard in Resources */,
+				33F2D46B2644D17D00BC396D /* LaunchScreen.storyboard in Resources */,
 				336125FC26042BFB007FC2CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F2D4692644D17D00BC396D /* ProfileView.swift in Sources */,
+				33F2D4682644D17D00BC396D /* ProfileInfoTableViewCell.swift in Sources */,
+				33F2D4672644D17D00BC396D /* ViewController.swift in Sources */,
+				33F2D46D2644D17D00BC396D /* AppDelegate.swift in Sources */,
 				337D2DF92632588A0033D12C /* ProfileView.swift in Sources */,
+				33F2D46F2644D17D00BC396D /* SceneDelegate.swift in Sources */,
 				336125F926042BFB007FC2CB /* ViewController.swift in Sources */,
 				336125F526042BFB007FC2CB /* AppDelegate.swift in Sources */,
 				336125F726042BFB007FC2CB /* SceneDelegate.swift in Sources */,
@@ -236,6 +278,22 @@
 				3361260026042BFC007FC2CB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		33F2D4602644D17D00BC396D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F2D4612644D17D00BC396D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		33F2D4622644D17D00BC396D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F2D4632644D17D00BC396D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

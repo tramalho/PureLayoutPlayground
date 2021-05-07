@@ -16,7 +16,8 @@ class ViewController: UIViewController {
        
         let uiTableView = UITableView()
         uiTableView.register(ProfileInfoTableViewCell.self, forCellReuseIdentifier: profileInfoCellReusebleIdentifier)
-        uiTableView.rowHeight = 68
+        uiTableView.estimatedRowHeight = 64
+        uiTableView.rowHeight = UITableView.automaticDimension
         uiTableView.translatesAutoresizingMaskIntoConstraints = false
         uiTableView.delegate = self
         uiTableView.dataSource = self
@@ -31,6 +32,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+        
+        DispatchQueue.main.async {
+            self.tableview.reloadData()
+        }
     }
     
     private func setup() {
@@ -54,7 +59,7 @@ extension ViewController: UITableViewDelegate {
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 4
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -68,6 +73,8 @@ extension ViewController: UITableViewDataSource {
             setValueInCell(cell: cell, title: "Email", description: "john@doe.com")
         case 2:
             setValueInCell(cell: cell, title: "LinkedIn", description: "www.linkedin.com/john-doe")
+        case 3:
+            setValueInCell(cell: cell, title: "Address", description: "45, Walt Disney St.\n37485, Mickey Mouse State")
         default:
             break
         }

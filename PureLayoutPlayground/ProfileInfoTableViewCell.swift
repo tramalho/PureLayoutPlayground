@@ -19,6 +19,7 @@ class ProfileInfoTableViewCell: UITableViewCell {
         
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Title"
+        label.numberOfLines = 0
         
         return label
     }()
@@ -29,6 +30,7 @@ class ProfileInfoTableViewCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Description"
         label.textColor = .gray
+        label.numberOfLines = 0
         
         return label
     }()
