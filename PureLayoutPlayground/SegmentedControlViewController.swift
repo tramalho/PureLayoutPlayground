@@ -8,7 +8,7 @@
 import UIKit
 import PureLayout
 
-class ViewController: UIViewController {
+class SegmentedControlViewController: UIViewController {
     
     private let profileInfoCellReusebleIdentifier = "profileInfoCellReusebleIdentifier"
     
@@ -53,11 +53,11 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDelegate {
+extension SegmentedControlViewController: UITableViewDelegate {
     
 }
 
-extension ViewController: UITableViewDataSource {
+extension SegmentedControlViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4
     }
