@@ -11,7 +11,8 @@ class HomeViewController: UIViewController {
 
     private let screenList:[String:UIViewController] = [
         "SegmentedControlViewController": SegmentedControlViewController(),
-        "TwitterViewController": TwitterViewController()
+        "TwitterViewController": TwitterViewController(),
+        "BeutifulHelloWorldViewController": BeutifulHelloWorldViewController()
     ]
     
     private lazy var stackView: UIStackView = {
